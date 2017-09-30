@@ -6,5 +6,5 @@ from  keras.layers import Activation
 
 
 def con_bn_relu(model,x):
-    model = Conv2D(model)(x)
+    model = Conv2D()(x)
     model = BatchNormalization()(model)
